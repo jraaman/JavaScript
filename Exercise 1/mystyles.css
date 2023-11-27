@@ -1,0 +1,34 @@
+body {
+    background-color: rgb(41, 41, 41);
+}
+
+a {
+    color: lightblue;
+}
+
+p {
+    display: inline-block;
+    font-family: Arial;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-width: 3px;
+    border-style: solid;
+}
+
+.mytitle {
+    color: white;
+    border-width: 1px;
+    border-color: red;
+    border-style: solid;
+}
+
+.mymenu {
+    display: inline-block;
+}
