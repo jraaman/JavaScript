@@ -1,4 +1,10 @@
-/* IMAGE GALLERY */
+/* PROJECTS */
+
+.projects-section {
+    margin-top: 55px;
+    margin-bottom: 55px;
+    width: 95%;
+}
 
 .image-gallery {
     display: grid;
