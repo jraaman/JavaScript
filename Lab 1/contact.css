@@ -1,0 +1,54 @@
+/* CONTACT FORM */
+
+.contact-section {
+    width: 700px;
+}
+
+.my-contact-form {
+    margin-top: 35px;
+}
+
+.contact-field {
+    display: block;
+    margin-bottom: 10px;
+    width: 99%;
+    background-color: rgb(19, 19, 19);
+    
+    font-family: Consolas;
+    color: lightgray;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+}
+
+.message-field {
+    display: block;
+    resize: vertical;
+    width: 99%;
+}
+
+.submit-button {
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    background-color: rgb(49, 49, 49);
+
+    border-style: solid;
+    border-width: 1px;
+    border-color: lightgray;
+    color: lightgray;
+}
+
+@media (max-width: 770px) {
+    .contact-section {
+        width: 100%;
+    }
+}
