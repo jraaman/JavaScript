@@ -40,10 +40,6 @@
     width: 1100px;
 }
 
-mark {
-    background-color: darkgray;
-}
-
 @media (max-width: 1200px) {
     .photo-presentation-grid {
         width: 100%;

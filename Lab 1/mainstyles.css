@@ -1,7 +1,9 @@
 /* CSS VARIABLES */
 :root {
+    --text-title: rgb(166, 166, 166);
     --text-gray: rgb(190, 190, 190);
     --background-dark-gray: rgb(21, 21, 21);
+    --background-slightly-dark: rgb(31, 31, 31);
 }
 
 
@@ -9,7 +11,7 @@
 /* CSS PSEUDO-ELEMENTS */
 p::selection {
     background-color: var(--text-gray);
-    color: rgb(15,15,15);
+    color: var(--background-dark-gray);
 }
 
 .quoted-text {
@@ -26,7 +28,7 @@ p::selection {
     padding-bottom: 5px;
     padding-top: 5px;
 
-    background-color: rgb(31,31,31);
+    background-color: var(--background-slightly-dark);
 }
 
 .quoted-text::before {
@@ -78,7 +80,7 @@ header {
     justify-content: center;
     align-items: center;
     
-    background-color: rgb(30,30,30);
+    background-color: var(--background-slightly-dark);
 
     height: 100px;
 
@@ -90,7 +92,7 @@ header {
     font-family: Arial;
     font-size: 36px;
     font-weight: bold;
-    color: rgb(166, 166, 166);
+    color: var(--text-title);
 }
 
 @media (max-width: 800px) {
@@ -99,6 +101,14 @@ header {
         margin-bottom: 10px;
         margin-left: 10px;
         margin-right: 10px;
+    }
+
+    header {
+        height: 75px;
+    }
+
+    .website-title {
+        font-size: 28px;
     }
 }
 
@@ -133,6 +143,12 @@ nav {
     color: rgb(192, 192, 192);
 }
 
+@media (max-width: 800px) {
+    nav {
+        height: 35px;
+    }
+}
+
 
 
 /* SECTION */
@@ -155,6 +171,10 @@ section {
     color: white;
 }
 
+mark {
+    background-color: darkgray;
+}
+
 @media (max-width: 800px) {
     section {
         padding-top: 15px;
@@ -172,15 +192,15 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
 
-    background-color: rgb(30,30,30);
+    background-color: var(--background-slightly-dark);
 
     height: 70px;
 
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
 
-    padding-left: 50px;
-    padding-right: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
 
     font-size: 16px;
 }
@@ -215,8 +235,6 @@ footer {
 .social-media-bar {
     display: flex;
     justify-content: right;
-    /*width: 150px;*/
-    /*width: 100%;*/
     padding-top: 13px;
     padding-bottom: 13px;
 }
