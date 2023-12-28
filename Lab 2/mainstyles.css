@@ -1,0 +1,39 @@
+/* CSS VARIABLES */
+:root {
+    --text-title: rgb(166, 166, 166);
+    --text-gray: rgb(190, 190, 190);
+    --background-dark-gray: rgb(21, 21, 21);
+    --background-slightly-dark: rgb(31, 31, 31);
+}
+
+/* GENERAL TAGS */
+body {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+h2 {
+    font-family: Arial;
+    color: var(--text-gray);
+}
+
+p {
+    font-family: Arial;
+    color: var(--text-gray);
+}
+
+
+/* CLASSES */
+.main-container {
+    width: 750px;
+}
+
+.site-title {
+
+}
+
+.explanation-text {
+    
+}
+
