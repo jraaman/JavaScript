@@ -18,6 +18,11 @@ h2 {
     color: var(--text-gray);
 }
 
+h3 {
+    font-family: Arial;
+    color: var(--text-gray);
+}
+
 p {
     font-family: Arial;
     color: var(--text-gray);
