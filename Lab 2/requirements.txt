@@ -1,0 +1,26 @@
+QUIZ LAB REQUIREMENTS
+
+Quiz running page:
+
+- Possibility to load saved quizzes.
+
+- Visitors enter their first name, last name and e-mail address. All three fields are required. The name fields must contain letters only. The e-mail field must have an "@" and a "." after it. Error messages should be shown when an error is detected.
+
+- A number of questions should then be presented with possibility to answer. There should be at least five questions. For the types of answers to questions all of the three types radio buttons, checkboxes and text entry should be included. At least two questions must be made required and this should be shown.
+
+- Validation for correct input should happen when the user presses the submit button. If the errors have been corrected, the error messages should be hidden. If submitted without errors, a success message should be shown and the score as well as the correct answers.
+
+
+Quiz creation page:
+
+- Possibility to add one more question to the quiz.
+
+- The question creation step should have one text box for the question, choice of the type of answer (radio buttons, multiple choices or text) and possible answers that will be presented.
+
+- When finished, the quiz should get saved to local storage.
+
+- The page should adjust according to screen size.
+
+
+
+9:17

@@ -1,7 +1,7 @@
 /* CSS VARIABLES */
 :root {
     --text-title: rgb(166, 166, 166);
-    --text-gray: rgb(190, 190, 190);
+    --text-gray: rgb(200, 200, 200);
     --background-dark-gray: rgb(21, 21, 21);
     --background-slightly-dark: rgb(31, 31, 31);
 }
@@ -10,7 +10,7 @@
 body {
     display: flex;
     justify-content: center;
-    background-color: black;
+    background-color: rgb(0, 37, 66);
 }
 
 h2 {
