@@ -42,3 +42,57 @@ p {
     
 }
 
+.quiz-question {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    /*border-style: solid;
+    border-width: 1px;
+    border-color: white;*/
+}
+
+.quiz-question-text {
+    margin-top: 0px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    /*border-style: solid;
+    border-width: 1px;
+    border-color: white;*/
+
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.quiz-radio-alternative {
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.quiz-radio-alternative-set {
+    display: flex;
+    align-items: center;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    /*border-style: solid;
+    border-width: 1px;
+    border-color: white;*/
+}
+
+.quiz-question-alternative-text {
+    color: white;
+    font-family: Arial;
+    margin-left: 15px;
+}

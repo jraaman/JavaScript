@@ -28,7 +28,7 @@ form.addEventListener('submit', function(event) {
         emailError.textContent = "";
     }
 
-    if (containsNonLetters(firstname.value)) {
+    if (containsNonLetters(firstname.value) || containsNonLetters(lastname.value)) {
         nameError.textContent = "Only letters (a-ö) are allowed for the first and last names!";
     }
     else {

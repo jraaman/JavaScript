@@ -20,7 +20,3 @@ Quiz creation page:
 - When finished, the quiz should get saved to local storage.
 
 - The page should adjust according to screen size.
-
-
-
-9:17
