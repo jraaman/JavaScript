@@ -28,6 +28,9 @@ p {
     color: var(--text-gray);
 }
 
+a {
+    color: rgb(43, 111, 238);
+}
 
 /* CLASSES */
 .main-container {
@@ -130,4 +133,46 @@ p {
 
 .quiz-text-input {
     width: 50%;
+}
+
+.quiz-creator-question-text {
+    margin-top: 0px;
+    margin-bottom: 7px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.quiz-creator-question-input {
+    width: 95%;
+}
+
+.quiz-creator-question-aspect {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.quiz-creator-question-title {
+    margin-top: 7px;
+    margin-bottom: 35px;
+}
+
+.quiz-creator-alternative-input {
+    width: 75%;
+}
+
+.quiz-creator-correct-label {
+    font-family: Arial;
+    color: var(--text-gray);
+    margin-left: 5px
+}
+
+.quiz-creator-correct-checkbox {
+    margin-left: 35px;
+}
+
+.quiz-creator-add-alternative-button {
+    margin-top: 15px;
 }

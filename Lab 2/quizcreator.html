@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Lab 2: Quiz Website</title>
+        <link rel="stylesheet" href="mainstyles.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta charset="UTF-8">
+    </head>
+
+    <body>
+        <div class="main-container">
+            <h2 class="site-title">Joakim's quiz creator page</h2>
+            <p class="explanation-text">Welcome to the quiz creator page!</p>
+            <p>Here, you can create and save your own quiz to local storage.</p>
+            <p>To go to the quiz taking page, click <a href="yourname.html">here</a>.</p>
+            <div class="quiz-question">
+                <h3 class="quiz-creator-question-title">Question 1</h3>
+                <form id="quiz-creator-question-form" class="quiz-creator-question-form">
+                    <div class="quiz-creator-question-aspect">
+                        <p class="quiz-creator-question-text">Question</p>
+                        <input type="text" id="quiz-creator-question-1-question" name="quiz-creator-question-1-question" class="quiz-creator-question-input">
+                    </div>
+                    <div class="quiz-creator-question-aspect">
+                        <p class="quiz-creator-question-text">Answer alternatives type</p>
+                        <div class="quiz-radio-alternative-set">
+                            <input type="radio" id="quiz-creator-type-radio" name="quiz-creator-type" value='radio'>
+                            <label for="quiz-creator-type-radio" class="quiz-question-alternative-text">Radio buttons (single choice)</label>
+                        </div>
+                        <div class="quiz-radio-alternative-set">
+                            <input type="radio" id="quiz-creator-type-check" name="quiz-creator-type" value='check'>
+                            <label for="quiz-creator-type-check" class="quiz-question-alternative-text">Check boxes (multiple choices)</label>
+                        </div>
+                        <div class="quiz-radio-alternative-set">
+                            <input type="radio" id="quiz-creator-type-text" name="quiz-creator-type" value='text'>
+                            <label for="quiz-creator-type-text" class="quiz-question-alternative-text">Text entry</label>
+                        </div>
+                    </div>
+                    <div class="quiz-creator-question-aspect">
+                        <p class="quiz-creator-question-text">Answer alternatives</p>
+                            <input type="text" id="quiz-creator-alternatives-question-0-0" name="quiz-creator-alternatives-question-0-0" class="quiz-creator-alternative-input">
+                            <input type="checkbox" id="quiz-creator-alternatives-correct-checkbox-question-0-0" class="quiz-creator-correct-checkbox">
+                            <label for="quiz-creator-alternatives-correct-checkbox-question-0-0" class="quiz-creator-correct-label">Correct</label>
+                            <button class="quiz-creator-add-alternative-button">Add one more alternative</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+
+    <script src="quizcreator.js"></script>
+</html>
